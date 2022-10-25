@@ -1,0 +1,7 @@
+path /bin ./
+gcc /u/c/s/cs537-1/tests/p2a/tests/r23.c -o r23
+gcc /u/c/s/cs537-1/tests/p2a/tests/hello.c -o hello
+gcc /u/c/s/cs537-1/tests/p2a/tests/ret_arg_0.c -o ret_arg_0
+
+if r23 == 23 then if ret_arg_0 10 == 10 then hello fi fi
+rm -rf r23 hello ret_arg_0

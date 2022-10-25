@@ -1,0 +1,6 @@
+path /bin ./
+gcc /u/c/s/cs537-1/tests/p2a/tests/r23.c -o r23
+gcc /u/c/s/cs537-1/tests/p2a/tests/hello.c -o hello
+
+if r23 == 23 then hello fi bad
+rm -rf r23 hello

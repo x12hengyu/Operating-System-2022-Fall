@@ -1,0 +1,6 @@
+path /bin ./
+gcc /u/c/s/cs537-1/tests/p2a/tests/ret_arg_0.c -o ret_arg_0
+gcc /u/c/s/cs537-1/tests/p2a/tests/hello.c -o hello
+
+if ret_arg_0 10 == 5 then hello fi
+rm -rf ret_arg_0 hello

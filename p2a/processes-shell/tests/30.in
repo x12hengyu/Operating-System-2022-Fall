@@ -1,0 +1,5 @@
+path /bin ./
+gcc /u/c/s/cs537-1/tests/p2a/tests/r23.c -o r23
+
+if r23 == 23 then fi
+rm -rf r23
